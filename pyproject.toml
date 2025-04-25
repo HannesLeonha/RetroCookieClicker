@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "RetroCookieClicker"
+version = "1.0.0"
+description = "A primitive clone of cookie clicker"
+authors = ["Hannes Leonhartsberger"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.6.1"
+pypresence = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
